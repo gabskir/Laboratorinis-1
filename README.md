@@ -1,5 +1,17 @@
 # Laboratorinis-1
 
+## v0.3 ##
+Programos funkcionalumas nepakito nuo 0.2 versijos (tik pridėtas exeption handling void skaitymas() funkcijoje).
+
+### Programos struktūros pokyčiai ###
+1. Programa išskaidyta į du .cpp tipo failus: "main.cpp" ir "funkcijos.cpp"
+    - "main.cpp" faile palikta main() funkcija
+    - į "funkcijos.cpp" perkeltos visos pagalbinės programos funkcijos
+2. Sukurti du header tipo failai "mylib.h" ir "funkcijos.h"
+    - "funkcijos.h" faile įrašyta programoje naudojama struktūra ir "funkcijos.cpp" faile esančių funkcijų deklaracijos
+    - "mylib.h" faile aprašytos naudojamos bibliotekos 
+
+
 ## v0.2 ##
 
 ### Programos veikimas ###
